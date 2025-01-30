@@ -61,3 +61,15 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+/* Responsive styles for mobile screens */
+@media (max-width: 480px) {
+    #password {
+        font-size: 18px; /* Smaller font size for mobile */
+        padding: 8px;
+    }
+
+    img {
+        width: 20px; /* Smaller image for mobile */
+        
+    }
+}
